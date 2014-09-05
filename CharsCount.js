@@ -8,13 +8,6 @@ function CharsCount(string)
 		if(string[i+1] == ' ' && string[i+2] == ' ') continue;
 		if(string[i+1] == ' ' || i+1 == nLen ) Words++;
 	}
-	if(Words >= 2) 
-	{
-		alert("Was counted '" + Words + "' words and '"+nLen+"' characters.");
-	}
-	else
-	{
-		if(nLen > 1) alert("Was counted '" + Words + "' words and '"+nLen+"' characters.");
-	}
+	alert("Was counted '" + Words + "' words and '"+nLen+"' characters.");
 }
 </script>
